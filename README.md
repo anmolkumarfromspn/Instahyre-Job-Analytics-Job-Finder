@@ -36,7 +36,9 @@ Fetched lat-long using geopy geocoder
 ### 5. Model Building
 
 Used NLTK, CountVectorizer and Cosine Similarity to build Model
+
 Used pickle to store data and vectorizer.
+
 Used Streamlit to build the frontend.
 ------------------------------------------------------------------------------------------------------
 
