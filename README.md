@@ -1,4 +1,34 @@
 # Instahyre-Job-Analytics-Job-Finder
+# Project Demo
+
+**Landing Page:**
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/450fd5cf-efd3-4de1-93ae-4b1311da9633)
+
+**Features:**
+
+User can serach bu skills, job locations, job titles, and a combination of them all.
+user can fix the number of results he wants to fetch. result will be shown based on decreasing level of similarity with the user input keywords.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/7556d9e5-ec39-46c3-b34f-e21206beae12)
+
+A Key-Insights dashjboard will be shown for each search result containing Most Common Experience level, Most common Location Location, Most common Company Class, and Total number of Job openings. 
+This dashboard does not include the number of search results user wants.
+
+Scrolling Down in the project page user can see the job openings also containing every information available for the particular job opening like - skills, experience, Comopany Name, Location along with 
+the Comnpany Logo.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/fadff705-a132-49e4-96cb-82e45876d404)
+
+By searching any job title user can also see the job opening locations over the country with the help of a dedicated country map.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/d9ffecd8-f36b-4e47-bc11-8cde1e3f8811)
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/c692c04a-3aba-4cc1-9139-bdf117dfd827)
+
+Orange dots show the job openings locations for the serched job profile/title.
+
+-----------------------------------------------------------------------------------------------------
 
 ## Project Flow - 
 
@@ -41,37 +71,6 @@ Used pickle to store data and vectorizer.
 
 Used Streamlit to build the frontend.
 ------------------------------------------------------------------------------------------------------
-
-# Instahyre-Job-Analytics-Job-Finder Demo
-
-**Landing Page:**
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/450fd5cf-efd3-4de1-93ae-4b1311da9633)
-
-**Features:**
-
-User can serach bu skills, job locations, job titles, and a combination of them all.
-user can fix the number of results he wants to fetch. result will be shown based on decreasing level of similarity with the user input keywords.
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/7556d9e5-ec39-46c3-b34f-e21206beae12)
-
-A Key-Insights dashjboard will be shown for each search result containing Most Common Experience level, Most common Location Location, Most common Company Class, and Total number of Job openings. 
-This dashboard does not include the number of search results user wants.
-
-Scrolling Down in the project page user can see the job openings also containing every information available for the particular job opening like - skills, experience, Comopany Name, Location along with 
-the Comnpany Logo.
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/fadff705-a132-49e4-96cb-82e45876d404)
-
-By searching any job title user can also see the job opening locations over the country with the help of a dedicated country map.
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/d9ffecd8-f36b-4e47-bc11-8cde1e3f8811)
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/c692c04a-3aba-4cc1-9139-bdf117dfd827)
-
-Orange dots show the job openings locations for the serched job profile/title.
-
------------------------------------------------------------------------------------------------------
 
 ## Tools used
 
