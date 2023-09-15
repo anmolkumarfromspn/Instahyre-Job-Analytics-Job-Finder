@@ -1,5 +1,80 @@
 # Instahyre-Job-Analytics-Job-Finder
-# Project Demo
+
+## Project Objective
+
+The primary objective of this machine learning project is to develop a Job Recommendation System that empowers users to discover employment opportunities tailored to their preferred location and role. Leveraging advanced machine learning techniques, this system aims to analyze and recommend job listings that align with the user's specified criteria, enhancing the job search experience by providing personalized and relevant job suggestions. By integrating user input, location-based data, and role preferences, this project seeks to bridge the gap between job seekers and suitable employment opportunities, ultimately improving the efficiency and effectiveness of the job search process.
+
+## Web Scrapping
+
+Job data was scrapped from www.instahyre.com which is a job search and talent acquisition platform and this website is primariuly focused on the technology industry in India.
+
+Used Beautiful Soup and Selenium to scrap the data
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/0a3b27f0-9f3e-4a71-9d8c-32e72b45041e)
+
+Setting number of pages to 500 is meant to scrap 5000 jobs records because every pages has only 10 jobs listed and extracting 5000 records will be useful to train the data much more efficiently.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/8b211086-1514-4613-93f0-ecb61488628f)
+
+Finally storing data into a csv file
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/8c871b16-1663-43cc-b9c8-a8faee5fbc4d)
+
+## Data Description
+
+Extracted records successfully with important featurtes like - company_name,	job_title,	job_locations,	experience,	hr_name,	founded_in,	employees_count,	skills,	job_id
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/3f77ae8b-e309-4781-96d3-ecea0ecb19cf)
+
+Using job_locations feature and geopy library sucessfully extracted the lattitudes and longitudes of job locations
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/e2855b60-57c1-4394-bb1e-e09f783a43cb)
+
+### Before
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/8cd87061-afa0-43a7-ac1e-d1089fc23867)
+
+### After
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/c7995793-5c11-4c76-a157-28247e09531c)
+
+## Data Cleaning/Preprocessing
+
+Using multiple strings functions in python successfully cleaned and transformed the data in the way it was needed.
+
+### Before
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/abd58880-f710-4041-9fcd-6c2d1a1d8eb6)
+
+### After
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/81fac306-a43b-4191-b37a-de5b563c06c6)
+
+## Data Analysis and Insights
+
+To get an overview and familiar with data performed Exploratory Data Analysis
+Created multiple visuals and derived meanigful insights out of cleaned data.
+
+### Insights:-
+
+1. If breakdown companies in  fourclasses by the number of employees, mostly companies falls under class 1 and very less companies falls under class 3 companies.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/b5cbbd67-5c7d-4bdb-bc25-9ec96fde30dc)
+
+3. The distribution of class 1 companies is 55.1% followed by class 4 25.6%, class 2 11.5%, and class 3 7.8%.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/da11f4f9-a73f-40ed-a7eb-7bb48e1cd849)
+
+4. Highest number of job openings are in Bangalore city while Ahmedabad has the least number of job openings.
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/1a90aadb-5408-43de-a325-994ceb602f08)
+
+5. Most demanding skill is Python followed by java and javascript while the least demanding skill is sales
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/178d8920-2d1c-4123-869e-36eededb4f32)
+
+
+## Demo of Job Recommendation system
 
 **Landing Page:**
 
@@ -28,63 +103,58 @@ By searching any job title user can also see the job opening locations over the 
 
 Orange dots show the job openings locations for the serched job profile/title.
 
------------------------------------------------------------------------------------------------------
+## Model Creation and Evaluation Metrics
 
-## Project Flow - 
+Using Data Preprocessing techniques in python, prepared the data for model creation and experiments
 
-### 1. Web Scrapping
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/0087f10e-77e7-4a80-bfb4-ee7d9581d8f3)
 
-Used beautiful Soup and Selenium for Werb Scrapping from https://www.instahyre.com/search-jobs/
+Using Cosine-Similarity and NLTK created a Job Recommender Function
 
-### 2. Data Cleaning
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/6f638961-45a1-4380-9cc2-efcaf0f42fa5)
 
-Used Python Pandas to clean the data and store it in a csv file
+Storted the model using Pickle Library
 
-### 3. EDA
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/1cd8c142-7958-4836-9290-2afc91f06974)
 
-Used Seaborn and Matplotlib to visualize various key-insights present in the data.
-Here are some of key-insights - 
+## Future Scope
 
-![download](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/89a5b909-29f7-4150-9182-d38d6e973272)
-
-Mostly job openings are in Class 1 cities while class 3 has the least job openings. A percentage share of distribution ofg Classes among different companies is shown in below pie chart
-
-![download](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/201d6087-54fa-4d46-9ea7-b4161b9528c7)
-
-Bangalore has the highest job openings while Ahmedabad has the least.
-
-![download](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/202ddd4e-d575-42c3-81d2-46b4389a2e7d)
-
-Most demanding skill is Python while Sales is the least demanding skill.
-
-![download](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/256a75fa-e968-4da9-9ef6-db311f9f0c88)
-
-### 4. getting Lattitude and Longitude for job-locations
-
-Fetched lat-long using geopy geocoder
-
-### 5. Model Building
-
-Used NLTK, CountVectorizer and Cosine Similarity to build Model
-
-Used pickle to store data and vectorizer.
-
-Used Streamlit to build the frontend.
-------------------------------------------------------------------------------------------------------
+In the future, this Job Recommendation System project can expand its scope by incorporating advanced skills matching algorithms to enhance job recommendations, leveraging advanced personalization techniques like NLP and deep learning for more context-aware suggestions, and integrating real-time updates to ensure users have access to the most current job listings, ultimately providing a more dynamic and effective job search experience.
 
 ## Tools used
 
 ![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/541d02e0-3d09-4070-825d-f799e6367866)
+
+## Challenges
+
+Data Quality and Quantity: Ensuring the availability of high-quality job data and user profiles, as well as dealing with data sparsity issues, was a significant challenge.
+
+Cold Start Problem: Providing relevant recommendations for new users or job listings with limited historical data (the "cold start" problem) was challenging.
+
+Algorithm Selection: Selecting the most appropriate recommendation algorithms (e.g., collaborative filtering, content-based filtering, hybrid models) and fine-tuning them for optimal performance was complex.
+
+Location Accuracy: Accurately determining a user's preferred location and matching it with job listings in the same location was a challenging due to variations in location data formats.
+
+Role Ambiguity: Handling cases where job titles and descriptions can be ambiguous or vary across industries which can lead to less accurate role-based recommendations.
+
+Bias and Fairness: Addressing biases in the recommendation system, which may lead to discrimination in job recommendations, is essential to ensure fairness.
+
+## Key Learnings
+
+Key learnings from this project include the importance of data quality, the delicate balance between personalization and privacy, the impact of algorithm selection, and the continuous improvement cycle through user feedback. We have addressed challenges such as the cold start problem, fairness, scalability, and real-time updates, while also considering the competitive landscape and regulatory compliance.
+
+## Conclusion
+
+In conclusion, this project has been a journey of discovery and innovation in the realm of job recommendation systems. Through meticulous data handling, the implementation of diverse recommendation algorithms, and a commitment to user privacy and feedback, I have created a Job Recommendation System that strives to bridge the gap between job seekers and their ideal employment opportunities.
+
 
 -----------------------------------------------------------------------------------------------------
 
 *Contact Mail: aktwenty5@gmail.com*
 *Linkedin: https://bit.ly/45XlMKn*
 
-
 ![image](https://github.com/anmolkumarfromspn/Christmas-Sales-Analysis/assets/128449996/58a5eea1-07ac-459c-bd55-e5748181530b)
 
-....
 
 
 
