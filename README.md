@@ -38,17 +38,29 @@ Using job_locations feature and geopy library sucessfully extracted the lattitud
 
 ![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/c7995793-5c11-4c76-a157-28247e09531c)
 
-## Data Cleaning/Preprocessing
+## Data Cleaning & Preprocessing
+
+### Data Cleaning
 
 Using multiple strings functions in python successfully cleaned and transformed the data in the way it was needed.
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/8f6d4cbd-9019-4497-af77-05eb0ff648c2)
 
-### Before
+Creating needed columns
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/2c5e8b26-ac80-490b-a248-cb179b0ca684)
 
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/abd58880-f710-4041-9fcd-6c2d1a1d8eb6)
+Converting into appropriate datatypes
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/b64709aa-459b-43a3-8b8e-f33c526dffde)
 
-### After
+Handeling Missing values and Duplicated Records
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/2a2431f6-1e50-403e-ad67-38ae615e077e)
 
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/81fac306-a43b-4191-b37a-de5b563c06c6)
+### Data Preprocessing
+
+Categorizing Companies in 4 different classes based on size using Clustering Algorithm
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/99bbd2ec-fe01-40f4-b962-c1b3f2059476)
+
+Preparing data for model training applying stemming, removing stopwords and lowerizing the text case
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/b27b75c4-51e7-4afc-8457-51de74fdd825)
 
 ## Data Analysis and Insights
 
