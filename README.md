@@ -85,6 +85,19 @@ Created multiple visuals and derived meanigful insights out of cleaned data.
 
 ![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/178d8920-2d1c-4123-869e-36eededb4f32)
 
+## Model Creation and Evaluation Metrics
+
+Using Data Preprocessing techniques in python, prepared the data for model creation and experiments
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/0087f10e-77e7-4a80-bfb4-ee7d9581d8f3)
+
+Using Cosine-Similarity and NLTK created a Job Recommender Function
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/6f638961-45a1-4380-9cc2-efcaf0f42fa5)
+
+Storted the model using Pickle Library
+
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/1cd8c142-7958-4836-9290-2afc91f06974)
 
 ## Demo of Job Recommendation system
 
@@ -114,20 +127,6 @@ By searching any job title user can also see the job opening locations over the 
 ![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/c692c04a-3aba-4cc1-9139-bdf117dfd827)
 
 Orange dots show the job openings locations for the serched job profile/title.
-
-## Model Creation and Evaluation Metrics
-
-Using Data Preprocessing techniques in python, prepared the data for model creation and experiments
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/0087f10e-77e7-4a80-bfb4-ee7d9581d8f3)
-
-Using Cosine-Similarity and NLTK created a Job Recommender Function
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/6f638961-45a1-4380-9cc2-efcaf0f42fa5)
-
-Storted the model using Pickle Library
-
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/1cd8c142-7958-4836-9290-2afc91f06974)
 
 ## Future Scope
 
