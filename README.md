@@ -132,6 +132,15 @@ Orange dots show the job openings locations for the serched job profile/title.
 
 In the future, this Job Recommendation System project can expand its scope by incorporating advanced skills matching algorithms to enhance job recommendations, leveraging advanced personalization techniques like NLP and deep learning for more context-aware suggestions, and integrating real-time updates to ensure users have access to the most current job listings, ultimately providing a more dynamic and effective job search experience.
 
+## Limitations
+
+1. Data Quality and Quantity: The effectiveness of this job recommender system heavily relies on the quality and quantity of data available. If the dataset for any recommendation model is small or contains incomplete or biased information, the recommendations may not be accurate or diverse.
+2. Unavailability of User Feedback: Any machine learning project's recommendations are likely to improve over time as it receives more user feedback. This project dosen't have any user feedback taking feature so this is a limitations of this project.
+3. Algorithmic Bias: Machine learning algorithms can inherit biases present in the training data. This can lead to biased recommendations, favoring certain demographics or industries and potentially perpetuating inequalities. This is not with this particular project but for every ML model.
+4. Dynamic Job Market: The job market is dynamic, with job listings frequently changing. This system do not capture rapid shifts in job demand and supply, potentially leading to outdated recommendations.
+5. Competing with Human Expertise: Some users may prefer personalized recommendations from human career advisors who can provide nuanced guidance that algorithms cannot match.
+6. Diverse User Preferences: Users have diverse preferences and career goals. This project model don't have a one-size-fits-all recommendation system that caters to everyone's individual needs.
+
 ## Tools used
 
 ![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/541d02e0-3d09-4070-825d-f799e6367866)
