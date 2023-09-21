@@ -60,7 +60,7 @@ Categorizing Companies in 4 different classes based on size using Clustering Alg
 ![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/99bbd2ec-fe01-40f4-b962-c1b3f2059476)
 
 Preparing data for model training applying stemming, removing stopwords and lowerizing the text case
-![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/b27b75c4-51e7-4afc-8457-51de74fdd825)
+![image](https://github.com/anmolkumarfromspn/Instahyre-Job-Analytics-Job-Finder/assets/128449996/7440aaf4-a71f-4256-8afa-e31ea61b06b1)
 
 ## Data Analysis and Insights
 
