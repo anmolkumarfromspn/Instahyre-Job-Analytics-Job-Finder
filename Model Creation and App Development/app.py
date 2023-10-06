@@ -86,6 +86,7 @@ if st.button("Search"):
     ##############################################################################
         st.divider()
 
-
+# Creating a map of job locations
+    
     st.map(all_job_openings[['lat','lon']])
 
